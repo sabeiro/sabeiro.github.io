@@ -1,0 +1,12 @@
+var baseUrl = 'data/dati.json';
+$(document).on('pageshow', '#main', function (event) {
+    max_height();
+//    $('#mainbox')
+    $.getJSON(baseUrl+'data.php', function(data) {
+	$.each(data.addetti, function(i,el) {
+
+
+
+	});
+    }
+}
